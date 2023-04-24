@@ -11,7 +11,6 @@
 #
 
 # Modify default IP
-sed -i 's/192.168.1.1/10.10.10.1/g' package/base-files/files/bin/config_generate
 sed -i 's/OpenWrt/RedmiAX6/g' package/base-files/files/bin/config_generate
 sed -i 's/luci-theme-bootstrap/luci-theme-argonne/g' feeds/luci/collections/luci/Makefile
 sed -i 's/#5e72e4/#E7651A/g' package/feeds/kenzo/luci-app-argonne-config/root/etc/config/argonne
