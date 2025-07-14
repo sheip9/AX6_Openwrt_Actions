@@ -19,4 +19,4 @@
 sed -i '$a src-git kenzo https://github.com/kenzok8/openwrt-packages' feeds.conf.default
 sed -i '$a src-git small https://github.com/kenzok8/small' feeds.conf.default
 sed -i '$a src-git small8 https://github.com/kenzok8/small-package' feeds.conf.default
-sed -i '$a src-git quickstart_lite https://github.com/sheip9/quickstart-lite' feeds.conf.default
+# sed -i '$a src-git quickstart_lite https://github.com/sheip9/quickstart-lite' feeds.conf.default
