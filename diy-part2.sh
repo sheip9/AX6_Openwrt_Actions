@@ -14,3 +14,4 @@
 sed -i 's/OpenWrt/RedmiAX6/g' package/base-files/files/bin/config_generate
 sed -i 's/luci-theme-bootstrap/luci-theme-argon/g' feeds/luci/collections/luci/Makefile
 # sed -i 's/#5e72e4/#E7651A/g' package/feeds/kenzo/luci-app-argon-config/root/etc/config/argon
+rm ./feeds/small8/luci-app-pppoe-relay/root/etc/init.d/pppoe-relay
